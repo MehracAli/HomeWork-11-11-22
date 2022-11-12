@@ -16,12 +16,12 @@ if (lastIndex == checkNumber)
 {
     //Console.BackgroundColor = ConsoleColor.Green;
     //Console.ForegroundColor = ConsoleColor.Green;
-    Console.WriteLine("number'in quvvetidir!");
+    Console.WriteLine(number+"'in quvvetidir!");
 }
 else
 {
     //Console.BackgroundColor = ConsoleColor.Red;
     //Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("number'in quvveti deyil!");
+    Console.WriteLine(number+"'in quvveti deyil!");
 }
 #endregion
