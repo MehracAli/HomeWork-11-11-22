@@ -1,8 +1,10 @@
 ﻿#region Ədədin 2-nin qüvvəti olub olmadığını tapan alqoritm.
 
-Console.Write("Reqem daxil et: ");
+Console.Write("Quvveti yoxlanan reqem daxil et: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.Write("Quvvet olmasi yoxlanan reqem daxil et: ");
 int checkNumber = Convert.ToInt32(Console.ReadLine());
-int number = 2;
+
 int lastIndex = 1;
 
 for (int i = number; i <= checkNumber; i*=number)
