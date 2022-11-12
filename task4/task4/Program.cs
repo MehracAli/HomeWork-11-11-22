@@ -1,4 +1,6 @@
-﻿Console.WriteLine("X daxil et: ");
+﻿#region X, Y və Z ədədləri verilir. Hansı ədədin böyük olduğunu ekrana çıxardan bir alqoritm yazırsız.
+
+Console.WriteLine("X daxil et: ");
 int numX = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Y daxil et: ");
 int numY = Convert.ToInt32(Console.ReadLine());
@@ -18,3 +20,4 @@ else
 {
     Console.WriteLine(numZ);
 }
+#endregion

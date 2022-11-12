@@ -1,4 +1,5 @@
-﻿
+﻿#region Verilen eded 70-den boyukdurse, 70-le arasindaki ferqin 3 qatini ekrana yazdiran, eger kicikdirse ferqin ozunu ekrana yazdiran alqoritm.
+
 Console.WriteLine("Reqem daxil et: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int defaultNum = 70;
@@ -16,3 +17,4 @@ else
     Console.WriteLine("Ferq: ");
     Console.WriteLine(defaultNum);
 }
+#endregion
